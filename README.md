@@ -29,7 +29,9 @@ Código base de la aplicación TV Shows App hecha en React.js que utiliza la API
 
 ## Dependencias
 
+- Axios
 - React
+- react-router-dom
   
 ---
 
