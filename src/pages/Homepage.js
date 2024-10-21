@@ -1,17 +1,20 @@
+//react
 import { useContext, useEffect } from "react";
 
 //context
 import ShowsContext from "../context/shows/showsContext";
 
-//componentes
+//components
 import SearchBar from "../components/Searchbar";
 import ListItem from "../components/ListItem";
 import Loader from "../components/Loader";
 
 const Homepage = () => {
+  //context variables
   const showsContext = useContext(ShowsContext);
   const { defaultShows, loading, shows } = showsContext;
 
+  //useEffect
   useEffect(() => {
     defaultShows();
     // eslint-disable-next-line react-hooks/exhaustive-deps

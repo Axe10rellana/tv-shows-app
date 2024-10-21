@@ -1,3 +1,4 @@
+//types
 import {
   SEARCH_SHOWS,
   SET_LOADING,

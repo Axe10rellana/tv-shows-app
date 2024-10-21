@@ -8,17 +8,17 @@ Código base de la aplicación TV Shows App hecha en React.js que utiliza la API
 
 ## Vista En Versión Desktop
 
-![Vista_En_Versión_Desktop](src/assets/desktop-preview.jpg)
+![Vista_En_Versión_Desktop](src/assets/design/desktop-design.jpg)
 
 ## Vista En Versión Mobile
 
-![Vista_En_Versión_Mobile](src/assets/mobile-design.jpg)
+![Vista_En_Versión_Mobile](src/assets/design/mobile-design.jpg)
 
 ---
 
 ## Enlace A La Aplicación
 
-- [TV Shows](https://axe10rellana.github.io/tvshowsapp/tvshowsapp/#/)
+- [TV Shows](https://tv-maze-show-app.netlify.app/#/)
 
 ---
 

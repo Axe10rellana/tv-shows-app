@@ -1,19 +1,23 @@
+//react
 import { useEffect, useContext } from "react";
 
-//contextos
+//context
 import ShowsContext from "../context/shows/showsContext";
 
-//componentes
+//components
 import Loader from "../components/Loader";
 
 const Singlepage = ({ match }) => {
+  //context variables
   const { getSimgleShow, singleShow, loading } = useContext(ShowsContext);
 
+  //useEffect
   useEffect(() => {
     getSimgleShow(match.params.id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  //functions
   const removeTags = (text) => {
     if (text === null || text === "") {
       return false;

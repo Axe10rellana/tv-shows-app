@@ -1,3 +1,4 @@
+//react
 import { createContext } from "react";
 
 const alertsContext = createContext();

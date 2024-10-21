@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-//state
+//states
 import ShowsState from "./context/shows/ShowsState";
 import AlertsState from "./context/alerts/AlertsState";
 

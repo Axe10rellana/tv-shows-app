@@ -1,17 +1,22 @@
+//react
 import { useState, useContext } from "react";
 
-//componentes
+//components
 import Alert from "./Alert";
 
-//contexto
+//context
 import ShowsContext from "../context/shows/showsContext";
 import AlertsContext from "../context/alerts/alertsContext";
 
 const Searchbar = () => {
+  //variables
   let [searchTerm, setSearchTerm] = useState("");
+
+  //context variables
   const { searchShows } = useContext(ShowsContext);
   const { alert, setAlert } = useContext(AlertsContext);
 
+  //functions
   const onSearchHandler = (e) => {
     e.preventDefault();
     if (searchTerm === "") {

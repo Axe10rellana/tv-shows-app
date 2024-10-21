@@ -1,9 +1,10 @@
+//react-router
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 //componentes
 import Navbar from "./components/Navbar";
 
-//paginas
+//pages
 import HomePage from "./pages/Homepage";
 import AboutPage from "./pages/Aboutpage";
 import SinglePage from "./pages/Singlepage";

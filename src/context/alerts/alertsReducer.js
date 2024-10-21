@@ -1,3 +1,4 @@
+//types
 import { SET_ALERT, REMOVE_ALERT } from "../types";
 
 const alertsReducer = (state, action) => {

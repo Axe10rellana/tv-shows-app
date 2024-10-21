@@ -1,6 +1,11 @@
+//react
 import React from "react";
+
+//css
 import "./Loader.css";
-import loader from "../assets/oval.svg";
+
+//assets
+import loader from "../assets/icons/oval.svg";
 
 const Loader = () => {
   return (
